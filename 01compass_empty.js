@@ -5,23 +5,23 @@ oriented = function(e) {
         if(e.webkitCompassHeading) {
             compassHeading = e.webkitCompassHeading;
         }   else  { 
-            compassHeading = e.alpha;
+            compassHeading = 360 - e.alpha;
         }
 //|| = or, && = and
         if (compassHeading > 315 || compassHeading < 45) {
-            text_area.textContent = "north";
+            text_area.textContent = "north face";
         }
 
          if (compassHeading >= 45 && compassHeading < 135) {
-            text_area.textContent = "east";
+            text_area.textContent = "east bay";
         }
 
          if (compassHeading >= 135 && compassHeading < 225) {
-            text_area.textContent = "south";
+            text_area.textContent = "dirty south";
         }
 
          if (compassHeading >= 225 && compassHeading < 315) {
-            text_area.textContent = "west";
+            text_area.textContent = "kanye west";
         }
 
 
