@@ -19,7 +19,7 @@ oriented = function(e) {
          
         //calls function to alter content based on heading
        // myOrientation();
-    }
+
 
 //device orientation that can track orientation on space
 	window.addEventListener('deviceorientation', oriented, false);
