@@ -23,7 +23,7 @@ oriented = function(e) {
          if (compassHeading >= 225 && compassHeading < 315) {
             text_area.textContent = "kanye west";
         }
-
+    }
 
 
 
